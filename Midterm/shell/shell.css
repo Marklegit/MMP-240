@@ -1,0 +1,200 @@
+body{
+    background-color: bisque;
+}
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 80px;
+    font-family:"Times New Roman", sans-serif;
+    border-bottom: dotted;
+}
+
+h2{
+    font-size: 60px;
+    text-align: center;
+}
+
+h3{
+    font-size: 50px;
+    margin-left: ;
+    padding-left: 20px;
+}
+
+h4{
+    font-size: 30px;
+    background-color: yellow;
+    width: 110px;
+    border: 1px solid;
+}
+
+p{
+    font-size: 20px;
+    width: 400px;
+    padding: 3px; 
+    border: solid black 1px;
+    background-color: beige;
+    
+}
+
+a:link, a:visited {
+    background-color: goldenrod;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+
+ul{
+    position: relative;
+    list-style-type: none;
+    margin-left: 100px;
+    margin-top: -65px;
+    height: 70px;
+    width: 1000px;
+    
+}
+
+li{
+    transition: background-color 0.5s ease;
+  background-color: darkorange;
+    float: left;
+    overflow: hidden;
+    font-size: 30px;
+    border: 1px solid black;
+}
+
+li a:hover:not(.active) {
+    text-decoration: none;
+    border: 1px solid;
+    font-size: 35px;
+    background-color: orange;
+}
+
+
+
+footer{
+    float: left;
+    margin-left: 30px;
+    margin-top: 0px;
+    display: block;
+    font-size: 30px; 
+    margin-top: 40px;
+    padding-bottom: 30px;
+   
+}
+
+.foot:hover{
+    background-color: orange;
+}
+
+.foot1:hover{
+    background-color: orange;
+}
+
+.foot2:hover{
+    background-color: orange;
+}
+
+.foot3:hover{
+    background-color: orange;
+}
+
+
+.nav1{
+    margin-right: 10px;
+    
+}
+
+.nav2{
+    margin-right: 10px;
+}
+
+.nav3{
+    margin-right: 10px;
+}
+.nav4{
+    margin-right: 10px;
+}
+.nav5{
+    margin-right: 10px;
+}
+
+.normal{
+    border: solid black 1px;
+    margin-bottom: 10px;
+}
+
+.long{
+     border: solid black 1px;
+     margin-bottom: 10px;
+}
+
+.wide{
+     border: solid black 1px;
+     margin-bottom: 10px;
+}
+
+
+.nor{
+    border: solid black 1px;
+    font-size: 20px;
+    background-color: orangered;
+    color: yellow;
+}
+.lon{
+    border: solid black 1px; 
+    font-size: 20px;
+    background-color: orangered;
+    color: yellow;
+}
+.wid{
+    border: solid black 1px; 
+    font-size: 20px;
+    background-color: orangered;
+    color: yellow;
+}
+
+tr{
+    border: black solid 1px;
+    background-color: beige;
+}
+
+
+.gun{
+    border: solid black 1px; 
+    margin: 10px;
+    background-color: orangered;
+}
+
+.gun:hover{
+    background-color: #ffc266;
+}
+
+.tableflow{
+    float: left;
+}
+
+.gl1{
+    margin-left: 800px;
+    border: solid black 1px;
+    background-color: beige;
+    margin-bottom: 100px;
+}
+
+
+.gl2{
+     margin-left: 800px;
+    border: solid black 1px;
+    background-color: beige;
+    margin-bottom: 100px;
+}
+
+.gl3{
+     margin-left: 800px;
+    border: solid black 1px;
+    background-color: beige;
+    margin-bottom: 30px;
+}
+
