@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MMP 240</title>
+    <link rel="stylesheet" href="CSS/style.css">
+     
+          
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").click(function(){
+        $(this).hide(300);
+    });
+});    
+    
+</script>       
+        
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#p1").css("color", "red")
+            .slideUp(2000)
+            .slideDown(2000);
+    });
+});
+</script>                 
+                                   
+</head>
+
+<body>
+   
+    <h1><p>Vanish text?</p></h1>
+   
+  <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.</p>
+   
+<button class="hakai" onclick="myFunction()">DESTROY ?</button>
+      
+
+
+<div id="myDIV">   
+      <img class="zamasu" src="images/zamasu_dbs.png" class="img-thumbnail" width="250px" height="500px">
+</div>
+        <img id="p1" src="images/ki_ball.png" width="250px" height="250px" alt="">
+
+        <img src="images/DBS_Beerus.png"
+     width="400px" height="500px" alt="">  
+
+<script>
+$(document).ready(function(){
+    $(".hakai").click(function(){
+        $("#myDIV").fadeOut();
+        $("button").fadeOut();
+        $("#h1").fadeOut();
+    });
+});
+</script>
+       
+       
+
+       
+       
+   <script src="../p5.min.js"></script>
+   <script src="sketch.js"></script>
+
+</body>
+</html>
