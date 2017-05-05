@@ -1,0 +1,50 @@
+.text {
+    max-width: 1000px;
+}
+
+.btn-default{
+    margin-right: ;
+    color: red;
+    
+}
+
+
+body{
+    max-width: 800px;
+    width: 900px;
+}
+
+h1 {
+    transition: 0.4;
+}
+
+h1 :hover {
+    /* Green */
+    color: red;
+    cursor: pointer;
+}
+
+img {
+    margin-right: 10px;
+}
+
+.zamasu{
+    float: left;
+  
+}
+
+.p1{
+    margin-bottom: 400px;
+}
+
+button {
+    padding: 10px;
+    border: 50%;
+    margin-left: 200px;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
